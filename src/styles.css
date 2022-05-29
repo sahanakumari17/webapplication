@@ -3,8 +3,8 @@
     padding: 0%;
     height: 20vh;
     width: 100%;
-    background-image: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(55,9,121,1) 24%, rgba(0,212,255,1) 100%);
-    color: rgb(255, 255, 255);
+    background-color: rgb(173, 180, 186);
+    color: rgb(0, 0, 0);
   }
   .navitems {
     margin-top: 0;
@@ -14,33 +14,29 @@
   }
   .navbar{
     margin-bottom: 20px;
-    border-radius: 20px;
   }
 
   h2 {
     margin-left: 50px;
     margin-top: 55px;
-    font-size: 35px;
+    font-size: 30px;
   }
   .navitems button {
-    width: 10%;
-    height: 7vh;
-    border: 2px solid white;
-    border-width: 4px;
-    border-radius: 40px;
-    margin-top: 40px;
-    background: black;
-    color: rgb(242, 248, 243);
-    font-family: serif;
+    width: 7%;
+    height: 6vh;
+    border: 1px solid rgb(0, 0, 0);
+    border-width: 2px;
+    margin-top: 50px;
+    background: rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
     font-size: 20px;
     cursor: pointer;
   }
   
   .userdatacontainer {
-    border-radius: 20px;
     width: 100%;
     height: fit-content;
-    background-image: linear-gradient(180deg, rgba(34,193,195,1) 0%, rgba(45,103,253,1) 100%);
+    background-color: rgb(173, 180, 186);
   }
   #main {
     flex-wrap: wrap;
@@ -48,25 +44,12 @@
     align-items: center;
     overflow: hidden;
   }
-  .name:hover {
-    color: rgb(31, 69, 127);
-  }
-  .avatar {
-    border-radius: 15%;
-  }
   .profile_cont {
-    border-radius: 5%;
     background-color: rgb(0, 0, 0);
     color: white;
     margin: 10px;
     padding: 20px;
-    width: 30%;
+    width: 25%;
     text-align: center;
-    transition: transform ease 0.2s;
-    opacity: 0.8;
     margin-top: 5vh;
-  }
-  .profile_cont:hover {
-    transform: scale(1.05);
-    opacity: 1;
   }
